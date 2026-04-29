@@ -12,6 +12,7 @@
 自走車行為決策系統（Decision System）
 模擬自動駕駛核心感知架構
 ## 🧠 系統架構（Perception → Decision → Control）
+![System Architecture](images/系統架構圖.png)
 ### 📌 感知層（Perception）
 攝影機影像輸入
 超音波距離感測
@@ -36,6 +37,7 @@ Raspberry Pi（嵌入式控制）
 超音波感測器（距離偵測）
 GPIO 馬達控制
 ## 🧠 CNN 模型設計
+![CNN Model](images/CNN模型.png)
 ### 📌 模型輸入
 
 3×64×64
